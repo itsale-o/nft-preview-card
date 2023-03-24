@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 7000px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-color: #0D192B;
+    font-family: Outfit, sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+ 
+#container{
+    background-color: #14253D;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+}
+
+.card-header{
+    position: relative;
+    cursor: pointer;
+}
+
+#main-fig{
+    border-radius: 16px;
+}
+
+.overlay{
+    background-color: #00FFF7;
+    opacity: 40%;
+    position: absolute;
+    top: 0;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    border-radius: 16px;
+    display: none;
+}
+
+.view-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.card-header:hover .overlay,
+.card-header:hover .view-img{
+    display: block;
+}
+
+#card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h1{
+    font-size: 19px;
+    color: white;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: #00FFF7;
+}
+
+#description{
+    color: #8BACDA;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#icons div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#eth{
+    color: #00FFF7;
+}
+
+#time{
+    color: #8BACDA;
+}
+
+#line{
+    width: 100%;
+    height: 2px;
+    background-color: #2F415B;
+}
+
+#author{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#author img{
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#author p{
+    color: #8BACDA;
+}
+
+#author b{
+    color: white;
+    cursor: pointer;
+}
+
+#author b:hover{
+    color: #00FFF7;
+}
+
+footer{
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+
+footer a {
+    color: #8BACDA; 
+}
