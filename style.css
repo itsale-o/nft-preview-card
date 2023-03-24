@@ -64,6 +64,11 @@ img{
     display: block;
 }
 
+.card-header:active .overlay,
+.card-header:active .view-img{
+    display: block;
+}
+
 #card-body{
     display: flex;
     flex-direction: column;
@@ -77,6 +82,10 @@ h1{
 }
 
 h1:hover{
+    color: #00FFF7;
+}
+
+h1:active{
     color: #00FFF7;
 }
 
@@ -136,6 +145,10 @@ h1:hover{
 }
 
 #author b:hover{
+    color: #00FFF7;
+}
+
+#author b:active{
     color: #00FFF7;
 }
 
