@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://itsale-o.github.io/nft-preview-card/)
+- Solution URL: [My solution](https://itsale-o.github.io/nft-preview-card/)
 
 ## My process
 
